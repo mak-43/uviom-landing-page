@@ -28,12 +28,26 @@ const Footer = () => {
                             <p>App Store</p>
                         </div>
                     </div>
+                    <div className='bg-gray-900 flex justify-center items-center gap-4 px-5 py-2 rounded-2xl border-stone-400'>
+                        <p className='text-amber-500 text-3xl flex flex-col justify-center items-center'><i class="fa-brands fa-google-play"></i></p>
+                        <div className='flex flex-col justify-center items-center'>
+                            <p className='text-xs'>Get It On </p>
+                            <p>Google Ply</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='text-white flex flex-col justify-center items-center gap-2'>
                     <h1>VIEW</h1>
-                    <p className='text-3xl border px-2 py-1 rounded border-lime-500'><i class="fa-solid fa-mobile-screen"></i></p>
+                    <p className='text-3xl border px-3 py-1 rounded border-lime-500'><i class="fa-solid fa-mobile-screen"></i></p>
                     <p className='text-4xl '><i class="fa-solid fa-laptop"></i></p>
                 </div>
+                
+           </div>
+           <div className='flex justify-center items-center py-5 '>
+            <p className='text-white'>&#169; UVIOM INC.2022.All Right Resolved.Developed By 
+                <span className='text-amber-500'> UVIOM</span>
+            </p>
+            
            </div>
         </div>
     );
