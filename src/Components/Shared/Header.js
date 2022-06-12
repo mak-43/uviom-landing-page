@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../Assets/logo.png'
 const Header = () => {
     return (
-        <div className='bg-[#172d41] py-3 '>
+        <div className='bg-[#172d41] py-3 px-10 '>
             <div className='flex items-center  justify-between'>
                 <div className='flex  items-start'>
                     <div className=''>
@@ -13,19 +13,19 @@ const Header = () => {
                         <span className='text-xs text-orange-300'>Your Mission Is Our Vision</span>
                     </div>
                 </div>
-                <div className='flex gap-5 text-white px-5'>
+                <div className='flex gap-6 text-white  '>
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">Career</a>
                     <a href="#">Privacy</a>
-                    <a href="#">Follow Us</a>
-                    <p><i class="fa-solid fa-gear"></i></p>
-                    <p><i class="fa-brands fa-facebook"></i></p>
-                    <p><i class="fa-brands fa-instagram"></i></p>
+                    <div className='flex  text-white gap-3'>
+                        <a href="#">Follow Us</a>
+                        <p><i class="fa-solid fa-gear"></i></p>
+                        <p><i class="fa-brands fa-facebook"></i></p>
+                        <p><i class="fa-brands fa-instagram"></i></p>
+                    </div>
                 </div>
-                {/* <div className='flex  text-white gap-4'>
-                    
-                </div> */}
+
             </div>
 
 
