@@ -7,7 +7,7 @@ import Home from './Components/Landing/Home';
 
 function App() {
   return (
-    <div className="relative h-screen">
+    <div className=" h-screen">
         <Header/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
