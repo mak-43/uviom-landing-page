@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'b': "url('/src/Components/Assets/logo.png')",
-        
+        'b': "url('/src/Components/Assets/COMING SOON.png')",
+          
         
       }
     },

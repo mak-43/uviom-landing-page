@@ -1,0 +1,21 @@
+.banner {
+
+    left: 0px;
+    top: 0px;
+
+    box-shadow: 0px 0px 30px 8px rgba(102, 137, 167, 0.5);
+    /* box-shadow: 0px 0px -30px -8px rgba(102, 137, 167, 0.5); */
+    /* box-shadow: 3px 4px 10px 0px #6689A759; */
+}
+
+.img img {
+    box-sizing: border-box;
+
+    width: 298.99px;
+    
+    top: 411px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+
+}
